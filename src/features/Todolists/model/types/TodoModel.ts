@@ -16,3 +16,9 @@ export interface UpdateTodoTitleArgs {
   todoId: string
   title: string
 }
+
+export interface TodoInitialState {
+  error: string
+  isLoading: boolean
+  data: TodoModel[]
+}
